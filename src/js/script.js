@@ -85,6 +85,7 @@ $(document).ready(function(){
 
   $('input[name=phone]').mask(" +38 (999) 999-9999");
 
+  //php
     $('form').submit(function(e) {
     e.preventDefault();
     $.ajax({
